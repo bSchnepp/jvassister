@@ -24,7 +24,7 @@ public final class InternetBrowser
      * @param String
      *            "url", where do we point their browser to?
      */
-    public static void RequestBrowse(String url)
+    public static void requestBrowse(String url)
     {
 	if (Desktop.isDesktopSupported())
 	{
