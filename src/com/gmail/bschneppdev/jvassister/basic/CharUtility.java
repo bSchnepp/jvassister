@@ -31,8 +31,8 @@ public final class CharUtility
 
     /**
      * Returns which characters in string1 are not equal to characters in
-     * string2. Note that characters after the common length of both of them are
-     * not noted.
+     * string2 at the same position. Note that characters after the common
+     * length of both of them in string2 are not noted.
      * 
      * @param String
      *            "string1"
@@ -58,7 +58,8 @@ public final class CharUtility
     /**
      * Returns which characters in string1 are not equal to characters in
      * string2, but where equal, replaced with an underscore. Note that
-     * characters after the common length of these characters are not recorded.
+     * characters after the common length of both of them in string2 are not
+     * noted.
      * 
      * @param String
      *            "string1"

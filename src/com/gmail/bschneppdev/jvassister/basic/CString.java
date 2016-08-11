@@ -37,7 +37,7 @@ public final class CString
     {
 	for (int i = 0; i < n; i++)
 	{
-	    dest += src;
+	    dest += src.charAt(i);
 	}
 	return dest;
     }

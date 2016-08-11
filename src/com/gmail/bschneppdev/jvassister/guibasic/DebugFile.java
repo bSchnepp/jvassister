@@ -33,7 +33,7 @@ public final class DebugFile
      */
     public static void writeToDebugTimestamp(String str)
     {
-	long currentTime = System.currentTimeMillis()*1000;
+	long currentTime = System.currentTimeMillis();
 	Date date = new Date(currentTime);
 	String time = "[" + date + "] - ";
 	DebugFile.writeToDebug(time + str);
