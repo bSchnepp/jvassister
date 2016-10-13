@@ -7,7 +7,6 @@ import javax.swing.JOptionPane;
  * FreedomWriter/CurtainLib build 1021, version 2. (Created by Brian Schnepp)
  * 
  * @author Brian Schnepp
- *
  */
 public final class DisplayMessage
 {
@@ -31,6 +30,16 @@ public final class DisplayMessage
 	    atr += n + '\n';
 	}
 	return JOptionPane.showConfirmDialog(null, atr);
+    }
+
+    public static void displayOkMessage(String[] message)
+    {
+	String atr = "";
+	for (String n : message)
+	{
+	    atr += n + '\n';
+	}
+	JOptionPane.showMessageDialog(null, atr);
     }
 
     /**
